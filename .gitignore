@@ -1,0 +1,26 @@
+# Cypress & Node.js related
+node_modules/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/reports/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Env files
+cypress.env.json
+.env
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Misc
+dist/
+build/
+coverage/

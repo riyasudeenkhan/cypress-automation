@@ -1,0 +1,26 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "headedTest": "npx cypress run --headed",
+    "chromeTest": "npx cypress run --headed --browser chrome",
+    "ecommerceTest": "npx cypress run --spec cypress/tests/cart/ecommerce-e2e.cy.js",
+    "csvTest": "npx cypress run --spec cypress/tests/cart/ecommerce-csv.cy.js",
+    "shoppingCartTest": "npx cypress run --spec cypress/tests/cart/shopping-cart.cy.js",
+    "practiceTest": "npx cypress run --spec cypress/tests/practice/automation-practice.cy.js",
+    "smokeTest": "npx cypress run --spec cypress/tests/cart/shopping-cart.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^14.3.2",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "neat-csv": "5.1.0"
+  }
+}
