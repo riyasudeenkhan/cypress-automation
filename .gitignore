@@ -24,3 +24,6 @@ cypress.env.json
 dist/
 build/
 coverage/
+
+# Cypress Doc
+cypressconcepts.xlsx
